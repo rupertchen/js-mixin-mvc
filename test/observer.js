@@ -1,9 +1,8 @@
-var assert = require('assert');
 var observer = require('../lib/observer');
 var chai = require('chai');
 var sinon = require('sinon');
-var sinonChai = require('sinon-chai');
-chai.use(sinonChai);
+chai.use(require('sinon-chai'));
+var assert = chai.assert;
 var expect = chai.expect;
 
 describe('Observer', function () {
