@@ -19,3 +19,10 @@ describe('Facade', function () {
   });
   it('can send notifications');
 });
+
+describe('Model', function () {
+  it('can register a proxy');
+  it('can retrieve a proxy');
+  it('can check a proxy,');
+  it('can remove a proxy')
+});
