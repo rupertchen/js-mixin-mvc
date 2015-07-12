@@ -12,7 +12,7 @@ module.exports = function (grunt) {
           mangle: false
         },
         files: {
-          'build/<%= pkg.name %>.min.js': ['src/**/*.js']
+          'build/<%= pkg.name %>.min.js': ['lib/**/*.js']
         }
       }
     }
